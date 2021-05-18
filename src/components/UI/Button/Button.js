@@ -7,8 +7,6 @@ const Button = props => {
         classes[props.type]
     ]
 
-    console.log(cls)
-
     return (
         <button
             onClick={props.onClick}

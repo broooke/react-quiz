@@ -21,7 +21,6 @@ class Layout extends Component {
     }
 
     render() {
-        console.log(this.state.menu)
 
         return (
             <div className={classes.Layout}>
