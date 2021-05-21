@@ -25,7 +25,7 @@ class Layout extends Component {
         return (
             <div className={classes.Layout}>
 
-                <Drawer isOpen={this.state.menu} onClose={this.menuCloseHandler} />
+                <Drawer isOpen={this.state.menu} onClose={this.menuCloseHandler} isAuthenticated={this.props.isAuthenticated} />
 
                 <MenuToggle 
                     onToggle={this.toggleMenuHandler}
